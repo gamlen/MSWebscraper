@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <!--<meta name="csrf-token" content="DtiHsqJzIz4FkVzxQlDcsZYjdRewTqidBWFY7ho8" />-->
+
+    <meta property="og:title" content="MS-IDI" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.ms-idi.eu" />
+    <meta property="og:image" content="http://ms-idi.eu/images/ms-idi.png" />
+    <meta property="og:description" content="MS-IDI develops individual software solutions for business and private sectors by bringing new areas of business to life and providing each client with fully customized and personalized product development." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>MS-IDI</title>
+
+
+        <link rel="stylesheet" type="text/css" href="/css/vendor.css">
+
+        <link rel="stylesheet" href="/css/app.css">
+
+</head>
+
+<body>
+
+            <div id="main-nav" class="col-xs-12 nav-container clear-pads menu">
+    <div class="container  clear-pads">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="http://ms-idi.eu" class="navbar-brand"><img class="logo" src="images/logo.png"></a>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav home navbar-nav navbar-right">
+                        <li><a class="prevent" href="#services">SERVICES</a></li>
+                        <li><a href="/technologies">TECHNOLOGIES</a></li>
+                        <li><a class="prevent" href="#clients">CLIENTS</a></li>
+                        <li><a href="/case-studies">CASE STUDIES</a></li>
+                        <li><a class="prevent" href="#company">COMPANY</a></li>
+                        <li><a class="prevent" href="#career">CAREER</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>    
+    
+<div id="slider" class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pads" ng-controller="IndexController">
+    <div class="col-md-12 clear-pads slider-container blue-bg">
+
+
+        <!--<div class="loader"></div>-->
+        <ul class="bxslider">
+
+            <li style="margin-left: 0px;"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-pads amber-container">
+
+    <div class="inner-bg amber-bg first-slide">
+        <div class="city"></div>
+        <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-sm-offset-0 text-from-right white clear-pads">
+            <a target="_blank" href="http://amber-housing.com/">
+                <div class="col-xs-12 clear-pads  center-xs">
+                    <div class="title col-lg-12 col-sm-12 col-xs-12 clear-margs clear-pads" >Amber&nbsp;</div>
+                    <div class="title col-lg-12 col-sm-12 col-xs-12 clear-pads">Housing</div>
+                </div>
+
+                <div class="description col-lg-12">
+
+                        Universal property management software, designed to improve operations
+                        performance, communication and transaction speed. One of the biggest
+                        benefits&nbsp;–&nbsp;system allows company to become almost paperless. At the
+                        click of a button, customers can attach photos, videos, voice mails and other types of media.
+
+
+                </div>
+            </a>
+         </div>
+
+
+        <div class="col-lg-5 col-md-5 col-sm-12 mac clear-pads">
+            <div></div>
+        </div>
+    </div>
+
+
+
+</div>
+
+</li>
+            <li><div class="col-md-12 clear-pads custom-software-container">
+
+    <div class="inner-bg">
+        <div class="custom-software-bg">
+            <div class="col-md-offset-3 col-md-8 col-sm-offset-2 col-sm-8 clouds"></div>
+        </div>
+        <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-1 text-from-right white">
+            <!--<a href="">-->
+                <div class="col-xs-12 clear-pads  center-xs">
+                    <div class="title col-lg-12 clear-pads clear-margs" >Custom Software&nbsp;</div>
+                    <div class="title col-lg-12 clear-pads">development</div>
+                </div>
+                <div id="rocket-description" class="description col-lg-12">
+                    Bespoke software is specially developed for business needs and it can accomodate particular preferences an expectations, taking into account all nuances.
+                    Custom software generally will produce the most efficient and well targeted system as it can provide functionality for the specific needs of the business.
+                </div>
+            <!--</a>-->
+        </div>
+        <div class="col-lg-6 col-md-6 data"></div>
+
+
+
+        <div class="col-md-offset-4 col-md-8 col-sm-offset-2 col-sm-8 laptop clear-pads">
+
+        </div>
+        <div class="clear-pads rocket"></div>
+    </div>
+
+
+</div></li>
+            <li><div class="col-md-12 clear-pads ecolines-container">
+
+
+    <div class="inner-bg">
+        <div class=" ecolines-bg">
+
+        </div>
+        <div class="sky white">
+            <div class="trees"></div>
+            <a target="_blank" href="/case-studies/els">
+                <div class="col-md-12 clear-pads title">Ecolines</div>
+                <div class="ecolines-slide-text col-lg-12 ">
+                    <div>ECOLINES is a passenger transport provider with large route network, offering multiple
+                        journey routes between the Baltic States, Europe, Russia and other CIS countries.
+                        Journeys are provided between more than 200 cities and 20 countries.
+                        Altogether there were created 3 projects for ECOLINES: Loyalty System,
+                        Operators Workspace and software for tablets to entertain passengers on long journeys.
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+        <div class="highway">
+            <div class="road"></div>
+            <div class="col-md-offset-2 col-sm-4 col-md-4 bus"></div>
+        </div>
+
+    </div>
+
+
+</div></li>
+            <li><div class="col-md-12 clear-pads opal-container">
+
+    <div class="inner-bg">
+        <div class="opal-bg"></div>
+        <div class="london-wrap">
+            <div class="london"></div>
+        </div>
+
+        <div class="col-lg-4 col-lg-offset-1 text-from-right white">
+            <a target="_blank" href="/case-studies/opex-bop">
+                <div class="col-xs-12 clear-pads  center-sm">
+                    <div class="title clear-margs col-md-12 col-sm-12 col-xs-12 clear-pads" >Opal&nbsp;</div>
+                    <div class="title col-md-12 col-sm-12 col-xs-12 clear-pads">Transfer</div>
+                </div>
+
+                <div class="description col-lg-11 col-sm-12">
+                    Money transfer service provided for private and corporate money
+                    transfers from United Kingdom to CIS countries and Eastern Europe.
+                    System includes modules such as fight against money laundering,
+                    electronic verification of customers, financial reports, reconciliation, bank payments authorization and other.
+                </div>
+            </a>
+
+        </div>
+
+        <div class="phones">
+
+            <div class="nexus col-sm-3 col-md-3"></div>
+            <div class="iphone col-sm-3 col-md-3"></div>
+        </div>
+
+
+    </div>
+
+
+</div></li>
+            <li><div class="col-md-12 clear-pads design-container">
+
+    <div class="inner-bg">
+        <div class="design-bg"></div>
+        <div id="design-description" class="col-lg-4 col-md-6 text-from-left white clear-pads">
+            <div class="col-lg-12 col-md-9 ">
+                <!--<a href="">-->
+                    <div class="col-xs-12 clear-pads  center-xs">
+                        <div class="title" >Product design & Development</div>
+                    </div>
+                    <div class="text">
+                        Whether you need to update your existing software design or require software solution for common problems,
+                        we will help you with all necessary planning, desing, development, implementation and evaluation of the processes.
+                        Our team of professionals will solve this in no time.
+                    </div>
+                <!--</a>-->
+
+            </div>
+            <div class="col-md-6">
+                <div class="notebook col-lg-12 col-md-12 col-sm-3"></div>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-8 col-md-6 clear-pads computer-wrap">
+            <div id="mac" class="col-md-12 clear-pads mac2"></div>
+
+
+            <div id="keyboard" class="col-lg-12 col-md-10 clear-pads overflow-hidden">
+                <div class="keyboard">
+
+                </div>
+                <div class="mouse"></div>
+            </div>
+            <div id="pens" class="col-md-9 pens">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+</li>
+
+        </ul>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</div><div id="services" class="col-md-12 col-sm-12 col-xs-12 clear-pads blue-bg services white">
+        <div class="container clear-pads">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="title center title">Explore <span class="bold">variety</span> of our services</div>
+                        <div class="center short-text">
+                                MS-IDI provides wide range of comprehensive services, including, custom solutions,
+                                IT outsourcing, consulting for private and corporate customers
+                        </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 clear-pads border-bottom-blue">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 service-type">
+                                <div class="col-md-12 col-sm-12 col-xs-12 clear-pads ">
+                                        <div class="monitor col-sm-3 col-xs-3 clear-pads"></div>
+                                        <div class="service-title col-md-12 col-sm-9 col-xs-9">Custom software development</div>
+                                </div>
+                                <div class="title-divider col-xs-12"></div>
+                                <div class="services-list col-xs-12 clear-pads">
+                                        <ul>
+                                                <li>Architecture design</li>
+                                                <li>Software development</li>
+                                                <li>Systems integration</li>
+                                                <li>Mobile development</li>
+                                        </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 service-type">
+                                <div class="col-md-12 col-sm-12 col-xs-12 clear-pads ">
+                                        <div class="light-bulb col-sm-3 col-xs-3 clear-pads"></div>
+                                        <div class="service-title col-md-12 col-sm-9 col-xs-9">ICT systems<br>design</div>
+                                </div>
+                                <div class="title-divider col-xs-12"></div>
+                                <div class="services-list col-xs-12 clear-pads">
+                                        <ul>
+                                                <li>ICT consulting</li>
+                                                <li>Technical specifications</li>
+                                                <li>Prototyping</li>
+                                                <li>User experience design</li>
+                                        </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 service-type">
+                                <div class="col-md-12 col-sm-12 col-xs-12 clear-pads ">
+                                        <div class="stuff col-sm-3 col-xs-3 clear-pads"></div>
+                                        <div class="service-title col-md-12 col-sm-9 col-xs-9">Staff augmentation <br>and managed services</div>
+                                </div>
+                                <div class="title-divider col-xs-12"></div>
+                                <div class="services-list col-xs-12 clear-pads">
+                                        <ul>
+                                                <li>Staff augmentation</li>
+                                                <li>Project  outsourcing</li>
+                                                <li>Managed services</li>
+                                                <li>Start-ups development</li>
+                                        </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 col-xs-offset-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 service-type">
+                                <div class="col-md-12 col-sm-12 col-xs-12 col-xs-3 clear-pads ">
+                                        <div class="lifebelt col-sm-3 col-xs-3 clear-pads"></div>
+                                        <div class="service-title col-md-12 col-sm-9 col-xs-9">Software testing <br>and support</div>
+                                </div>
+                                <div class="title-divider col-xs-12"></div>
+                                <div class="services-list col-xs-12 clear-pads">
+                                        <ul>
+                                                <li>Performance & security testing</li>
+                                                <li>Quality assurance</li>
+                                                <li>Continuous development</li>
+                                                <li>Technical support</li>
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+
+                <div id="industries-top" class="col-md-12 col-sm-12 col-xs-12 center">
+                        <!--<div class="project-count-wrap">
+                                <div class="project-count" id="project-count">8</div>
+                                <div class="project-text">
+
+                                        <div class="">Projects</div>
+                                        <div class="">created</div>
+                                </div>
+                        </div>-->
+                        <div class="col-md-12 title">Industries we <span class="bold">worked in</span></div>
+                </div>
+
+
+        </div>
+</div>
+
+<div class="col-md-12 col-sm-12 col-xs-12 clear-pads blue-bg-shape">
+        <div class="container clear-pads border-bottom-gray">
+                <div class="col-xs-12 clear-pads industries-items">
+                        <!--ontouchstart="this.classList.toggle('hover');"-->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries" >
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Prototyping</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries">
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <div class="icon icon-erp"></div>
+                                                <div class="name">ERP systems</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries">
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <div class="icon icon-finances"></div>
+                                                <div class="name">Finances</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries">
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <div class="icon icon-logistics"></div>
+                                                <div class="name">Logistics</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries">
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <div class="icon icon-consulting"></div>
+                                                <div class="name">Consulting</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries">
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <div class="icon icon-product-design"></div>
+                                                <div class="name">Product design</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries">
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <div class="icon icon-firmware-engineering"></div>
+                                                <div class="name">Device firmware engineering</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-8 industries">
+                                <div class="col-xs-12 clear-pads flipper">
+                                        <div class="industries-wrap front">
+                                                <!--<div class="count circle">
+                                                        <div class="num">3</div>
+                                                </div>-->
+                                                <div class="icon icon-outsorce"></div>
+                                                <div class="name">IT outsorcing</div>
+                                        </div>
+                                        <div class="industries-wrap back">
+                                                <div class="icon icon-prototyping"></div>
+                                                <div class="name">Lorem ipsum</div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <!--<div class="col-xs-12 center">
+
+                                <div class="more">
+                                        <a href="">
+                                                <div class="more-txt">See more</div>
+                                                <div class="more-btn circle"></div>
+                                                <div class="more-btn-pressed circle"></div>
+                                                <div class="more-btn-hover circle"></div>
+                                        </a>
+                                </div>
+                </div>-->
+        </div>
+</div>
+<div id="technology" class="col-md-12 col-sm-12 col-xs-12 clear-pads">
+        <div class="container clear-pads">
+                <div class="title center title">Technology <span class="bold">expertise</span> </div>
+                <div class="center short-text">Continuous investment in new platforms and technology studies,
+                        applying best practices to ensure quality and efficiency</div>
+
+
+                <div class="col-md-12 col-sm-12 col-xs-12 clear-pads technology-wrap">
+                        <div class="col-md-offset-1 col-sm-offset-1 col-md-2 col-sm-2 col-xs-6 lear-pads technology">
+                                <div class="icon-net icon"></div>
+                                <div class="name">.NET</div>
+
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-6 clear-pads technology">
+                                <div class="icon-open icon"></div>
+                                <div class="name">Open source</div>
+                                <div class="name">PHP</div>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-6 clear-pads technology">
+                                <div class="icon-ui icon"></div>
+                                <div class="name">UI / UX / Graphic design</div>
+
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-6 clear-pads technology">
+                                <div class="icon-mobile icon"></div>
+                                <div class="name">Mobile</div>
+                                <div class="name">development</div>
+
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-6 clear-pads technology">
+                                <div class="icon-frontend icon"></div>
+                                <div class="name">Front-end</div>
+                                <div class="name">AngularJS</div>
+                                <div class="name">Laravel</div>
+
+                        </div>
+                </div>
+
+                <div class="col-md-12 center">
+                        <div class="more">
+                                <a href="/technologies">
+                                        <div class="more-txt">Learn more</div>
+                                        <div class="more-btn circle"></div>
+                                        <div class="more-btn-pressed circle"></div>
+                                        <div class="more-btn-hover circle"></div>
+                                </a>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<div id="clients" class="col-md-12 col-sm-12 col-xs-12 clear-pads " ng-controller="ClientsController">
+    <div class="col-md-12 col-sm-12 col-xs-12 clear-pads green">
+        <div>
+
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 clear-pads holder hidden-sm hidden-xs">
+            <div class="shadow"></div>
+            <div class="pen_holder">
+                <img  src="images/pen_holder.png">
+            </div>
+
+
+        </div>
+        <div id="clients-title" class="title center">What clients <span class="bold">say about us</span>?</div>
+
+        <div id="clients-text" class="center short-text">
+            Great feedback from customers makes us proud about developed projects and giving us the drive to exceed expectations every time
+        </div>
+
+
+        <div class="col-md-12 clear-pads" style="height: 500px; overflow: hidden;">
+            <ul class="client-slider">
+                <li><div class="client-slide">
+    <div class="client-slide-wrap">
+        <div class="client-name col-md-12 clear-pads">Peteris Kokovins</div>
+        <div class="client-position col-md-12 clear-pads">Head of the board</div>
+        <div class="client-description col-md-12 clear-pads" style="line-height: 1.6">
+            <!--“We are very pleased with the MS-IDI company’s contribution to the future of our business.
+            The introduced OPAL system has repeatedly optimized a number of processes taking place in out company,
+            made them more transparent, as well as increased work erformance speed and quality.
+            The developed website already processed thousands of transactions within amonth”-->
+
+            “Baltic Technology Group (BTG) hired MS-IDI for the Southeast Asian customer to develop
+            and support gaming project. MS-IDI company’s developers joined the ongoing project at a
+            very busy and critical time. They were able to grasp objectives and priorities for making
+            positive, quality contributions to the development and testing processes. The quality of
+            work exhibited by MS-IDI developers was recognized and appreciated by other project
+            team members and the end user.”
+        </div>
+    </div>
+
+</div></li>
+                <li><div class="client-slide">
+    <div class="client-slide-wrap">
+        <div class="client-name col-md-12 clear-pads">OPAL Online</div>
+        <div class="client-position col-md-12 clear-pads">Head of the board</div>
+        <div class="client-description col-md-12 clear-pads" style="line-height: 1.6">
+            <!--“We are very pleased with the MS-IDI company’s contribution to the future of our business.
+            The introduced OPAL system has repeatedly optimized a number of processes taking place in out company,
+            made them more transparent, as well as increased work erformance speed and quality.
+            The developed website already processed thousands of transactions within amonth”-->
+
+            “We are very pleased with the MS-IDI company’s contribution for the future of our
+            business. The newly introduced OPAL system has repeatedly optimized a number of
+            processes taking place at our company by making them more transparent, as well as
+            increasing work performance and the quality of our services. The developed website
+            already processed thousands of transactions within a month.”
+        </div>
+    </div>
+</div></li>
+                <li><div class="client-slide">
+    <div class="client-slide-wrap">
+        <div class="client-name col-md-12 clear-pads">Ingars Gusans</div>
+        <div class="client-position col-md-12 clear-pads">Project Manager</div>
+        <div class="client-description col-md-12 clear-pads" style="line-height: 1.6">
+            <!--“We are very pleased with the MS-IDI company’s contribution to the future of our business.
+            The introduced OPAL system has repeatedly optimized a number of processes taking place in out company,
+            made them more transparent, as well as increased work erformance speed and quality.
+            The developed website already processed thousands of transactions within amonth”-->
+
+            “The team of developers was professional and accommodating. Our ideas and desires
+            were taken into account in the process of website development, as well as elaborating
+            interactive computer games. As a result, we successfully met the deadline and obtained a
+            high-quality product. It must be mentioned that during the development of the virtual
+            museum, there was established a good communication between the developer and the
+            partners of the project.”
+        </div>
+    </div>
+</div></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="title center title">Companies who <span class="bold">trust us</span></div>
+
+    <div class="center short-text">
+      Our business clients and partners
+    </div>
+
+    <div class="container clear-pads border-bottom-gray">
+        <div class="col-md-12 col-sm-12 col-xs-12 clear-pads partnerz"
+             check-height
+             target="[ '.year', '.year-txt', '.partner .image' ]"
+             active-class="'active'"
+             offset="100"
+             hide="false">
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="partner-wrap">
+                    <div class="roof"></div>
+                    <div class=" partner">
+                        <div class="years">
+                            <div class="year">04</div>
+                            <div class="year-txt">years</div>
+                        </div>
+
+                        <div class="image exigen"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="partner-wrap">
+                    <div class="roof"></div>
+                    <div class=" partner">
+                        <div class="years">
+                            <div class="year">02</div>
+                            <div class="year-txt">years</div>
+                        </div>
+
+                        <div class="image lattelecom"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="partner-wrap">
+                    <div class="roof"></div>
+                    <div class=" partner">
+                        <div class="years">
+                            <div class="year">01</div>
+                            <div class="year-txt">years</div>
+                        </div>
+
+                        <div class="image dzc"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="partner-wrap">
+                    <div class="roof"></div>
+                    <div class=" partner">
+                        <div class="years">
+                            <div class="year">02</div>
+                            <div class="year-txt">years</div>
+                        </div>
+
+                        <div class="image kleintech"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 clear-pads partnerz">
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="opal"></div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="ecolines"></div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="rn"></div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 partner-col">
+                <div class="rta"></div>
+            </div>
+        </div>
+    </div>
+
+</div><div id="case-studies" class="col-md-12 col-sm-12 col-xs-12">
+    <div class="container clear-pads" ng-controller="CaseStudiesController">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="title center title">Case <span class="bold">studies</span></div>
+            <div class="center short-text">
+                No project too small or too big, every project is significant, unique and innovative that we are proud of and happy to share with you
+            </div>
+
+            <div class="col-md-12 brochure-wrap">
+                <a target="_blank" href="/brochure/en" class="brochure-text">
+                    <div class="brochure-btn">
+                        PDF brochure (En)
+                    </div>
+                    <div class="brochure-btn-hover">
+                        PDF brochure (En)
+                    </div>
+                    <div class="brochure-btn-active">
+                        PDF brochure (En)
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="col-md-12 col-sm-12 col-xs-12 case-studies-wrap">
+            <div class="col-md-4 case-studies" ng-repeat="item in caseStudies">
+
+                    <a href="{{ item.url != null ? item.url : 'javascript:void(0)' }}" ng-class="{'not-active': !item.url}">
+                        <div class="studie">
+                        <div class="cover">
+                            <div class="image minified" ng-style="{'background':'url({{ item.image }}) center center no-repeat'}">
+
+                            </div>
+
+                        </div>
+                        <div class="white-layer">
+                            <div class="hover">
+                                <img src="images/eye.png">
+                            </div>
+                        </div>
+                        <div class="portfolio-title" ng-bind="item.content"></div>
+                        <div class="category">
+                            <div class="category">
+                                <span ng-repeat="category in item.categories track by $index"
+                                      ng-bind="category.name + (item.categories.length - 1 > $index ? ', ' : '')">
+                                </span>
+                            </div>
+                        </div>
+                        </div>
+                    </a>
+
+            </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-xs-12 center">
+            <div class="more">
+                <a href="/case-studies">
+                    <div class="more-txt">See more</div>
+                    <div class="more-btn circle"></div>
+                    <div class="more-btn-pressed circle"></div>
+                    <div class="more-btn-hover circle"></div>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+</div><div id="company" class="col-md-12 col-sm-12 col-xs-12 clear-pads" ng-controller="CompanyController">
+		<div class="col-md-12 col-sm-12 col-xs-12 clear-pads coffee-holder hidden-md hidden-sm hidden-xs">
+				<div class="shadow2"></div>
+				<div class="shadow3"></div>
+				<div class="cofe">
+						<img  src="images/company/cup.png">
+
+				</div>
+				<div class="pencil">
+						<img  src="images/company/pencil.png">
+				</div>
+		</div>
+		<div class="light-blue">
+
+				<div class="container ">
+						<div class="title center">Here <span class="bold"> we are</span></div>
+						<div class="center short-text">
+							MS-IDI is one of the largest custom IT solutions provider in Latvia,
+							founded in 2010. We do offer wide range of services for both&nbsp;- private
+							and corporate customers. Company`s target is to exceed customer`s
+							expectations every time and we are proud of achieved. Great feedbacks
+							from our customers helps us broaden our fields and rise the trust in our business.
+						</div>
+
+						<div class="col-md-12 clear-pads">
+								<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="team">
+												<div class="valery"></div>
+										</div>
+										<div>
+											<h2 class="team-member-name">Valerijs Serkins</h2>
+                                            <h3 class="team-member-role">CEO, Founder</h3>
+										</div>
+
+								</div>
+								<div class="col-md-4 col-sm-6 col-xs-12">
+										<div class="team">
+												<div class="nicolay"></div>
+										</div>
+                                        <div>
+                                            <h2 class="team-member-name">Nikolajs Pusnakovs</h2>
+                                            <h3 class="team-member-role">CFO, Founder</h3>
+                                        </div>
+								</div>
+								<div class="col-md-4 col-sm-12 col-xs-12">
+										<div class="team">
+												<div class="edgar"></div>
+										</div>
+                                        <div>
+                                            <h2 class="team-member-name">Edgars Rukmanis</h2>
+                                            <h3 class="team-member-role">CTO</h3>
+                                        </div>
+								</div>
+						</div>
+				</div>
+
+
+		</div>
+
+
+		<div class="container">
+				<div class="title center">Let's <span class="bold">get in touch</span></div>
+				<div class="col-md-offset-2 col-md-8 contact-info">
+						<div class="col-md-6 col-sm-6 right">
+								<div class="pin">SIA MS-IDI, Atbrivosanas aleja 98,</div>
+								<div class="pin2">Rezekne, LV-4601, Latvia</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+								<div class="email">Email: info@ms-idi.eu</div>
+								<div class="phone">Telephone: (+371) 278 257 77</div>
+								<!--<div class="fax">Fax: +371 64605888</div>-->
+						</div>
+				</div>
+
+				<div class="col-md-12">
+						<form name="contactForm" id="contact-form" ng-submit="send()"  novalidate ng-init="setFormScope( this )">
+								<div class="col-md-4 contact-form-input form-group">
+										<input class="form-control"
+											   id="cfsender"
+											   name="cfsender"
+											   ng-blur="blurByKey( 'cfsender' )"
+											   required
+											   ng-model="message.cfsender"
+											   type="text"
+											   placeholder="Your name">
+								</div>
+
+								<div class="col-md-4 contact-form-input form-group">
+										<input class="form-control"
+											   id="cfemail"
+											   name="cfemail"
+											   required
+											   type="email"
+											   ng-model="message.cfemail"
+											   placeholder="Email address">
+								</div>
+								<div class="col-md-4 contact-form-input form-group">
+										<input class="form-control"
+											   type="text"
+											   id="cfsubject"
+											   name="cfsubject"
+											   required
+											   ng-model="message.cfsubject"
+											   placeholder="Subject">
+								</div>
+
+								<div class="col-md-12 contact-form-input form-group">
+										<textarea rows="10" class="form-control"
+												  id="cftext"
+												  name="cftext"
+												  required
+												  ng-model="message.cftext"
+												  placeholder="Message">
+										</textarea>
+								</div>
+								<button class="form-control send" type="submit" value="">
+									<div class="more-txt">Send message</div>
+									<div class="more-btn circle"></div>
+									<div class="more-btn-pressed circle"></div>
+									<div class="more-btn-hover circle"></div>
+								</button>
+						</form>
+				</div>
+		</div>
+
+
+
+		<div style='overflow:hidden;height:405px;width:100%;'>
+				<div id='gmap_canvas' style='height:405px;width:100%;'></div>
+				<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+		</div>
+
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12" id="career" ng-controller="CareerController">
+        <div class="container">
+                <div class="title center">Start your <span class="bold"> career with us</span></div>
+
+
+                <!--<div class="col-md-12 clear-pads">
+                        <div class="col-md-12 clear-pads vacansy">
+                                <a class="" ng-click="toggleMe( $event )" data-toggle="collapse" href="#marketing_manager" aria-expanded="false" aria-controls="marketing_manager">
+
+                                        <div class="carrer-name">Developers</div>
+
+                                        <div class="plus" ></div>
+                                </a>
+                                <div class="collapse" id="marketing_manager">
+                                        <table>
+                                                <tr>
+                                                        <th>Job duties:</th>
+                                                        <th>Job skills:</th>
+                                                        <th>We offer:</th>
+                                                        <th>Bonuses:</th>
+                                                </tr>
+                                                <tr>
+                                                        <td>Plan and organise marketing activities</td>
+                                                        <td>Augstākā vai nepabeiga augstākā izglītība</td>
+                                                        <td>Komfortabla darba vide</td>
+                                                        <td>Draudzīgs kolektīvs</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>Sagatavot marketinga materiālus</td>
+                                                        <td>Ļoti labs komunikācijas un sadarbības prasmes</td>
+                                                        <td>Interesanta, radoša un dinamiska darba vide</td>
+                                                        <td>Elastīgs darba grafiks</td>
+                                                </tr>
+                                        </table>
+                                </div>
+                        </div>
+
+                        <div class="col-md-12 clear-pads vacansy">
+                                <a class="" ng-click="toggleMe( $event )" data-toggle="collapse" href="#game_marketing_manager" aria-expanded="false" aria-controls="game_marketing_manager">
+                                        <div class="carrer-name">PHP Developer</div>
+                                        <div class="plus" ></div>
+                                </a>
+                                <div class="collapse" id="game_marketing_manager">
+                                        <table>
+                                                <tr>
+                                                        <th>Job duties:</th>
+                                                        <th>Job skills:</th>
+                                                        <th>We offer:</th>
+                                                        <th>Bonuses:</th>
+                                                </tr>
+                                                <tr>
+                                                        <td>Plan and organise marketing activities</td>
+                                                        <td>Augstākā vai nepabeiga augstākā izglītība</td>
+                                                        <td>Komfortabla darba vide</td>
+                                                        <td>Draudzīgs kolektīvs</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>Sagatavot marketinga materiālus</td>
+                                                        <td>Ļoti labs komunikācijas un sadarbības prasmes</td>
+                                                        <td>Interesanta, radoša un dinamiska darba vide</td>
+                                                        <td>Elastīgs darba grafiks</td>
+                                                </tr>
+                                        </table>
+                                </div>
+                        </div>
+
+                        <div class="col-md-12 clear-pads vacansy">
+                                <a class="" ng-click="toggleMe( $event )" data-toggle="collapse" href="#net_developer" aria-expanded="false" aria-controls="net_developer">
+                                        <div class="carrer-name">Sales Manager</div>
+                                        <div class="plus" ></div>
+                                </a>
+                                <div class="collapse" id="net_developer">
+                                        <table>
+                                                <tr>
+                                                        <th>Job duties:</th>
+                                                        <th>Job skills:</th>
+                                                        <th>We offer:</th>
+                                                        <th>Bonuses:</th>
+                                                </tr>
+                                                <tr>
+                                                        <td>Plan and organise marketing activities</td>
+                                                        <td>Augstākā vai nepabeiga augstākā izglītība</td>
+                                                        <td>Komfortabla darba vide</td>
+                                                        <td>Draudzīgs kolektīvs</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>Sagatavot marketinga materiālus</td>
+                                                        <td>Ļoti labs komunikācijas un sadarbības prasmes</td>
+                                                        <td>Interesanta, radoša un dinamiska darba vide</td>
+                                                        <td>Elastīgs darba grafiks</td>
+                                                </tr>
+                                        </table>
+                                </div>
+                        </div>
+
+                        <div class="col-md-12 clear-pads vacansy">
+                                <a class="" ng-click="toggleMe( $event )" data-toggle="collapse" href="#sales_manager" aria-expanded="false" aria-controls="sales_manager">
+                                        <div class="carrer-name">Marketing Manager</div>
+                                        <div class="plus" ></div>
+                                </a>
+                                <div class="collapse" id="sales_manager">
+                                        <table>
+                                                <tr>
+                                                        <th>Job duties:</th>
+                                                        <th>Job skills:</th>
+                                                        <th>We offer:</th>
+                                                        <th>Bonuses:</th>
+                                                </tr>
+                                                <tr>
+                                                        <td>Plan and organise marketing activities</td>
+                                                        <td>Augstākā vai nepabeiga augstākā izglītība</td>
+                                                        <td>Komfortabla darba vide</td>
+                                                        <td>Draudzīgs kolektīvs</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>Sagatavot marketinga materiālus</td>
+                                                        <td>Ļoti labs komunikācijas un sadarbības prasmes</td>
+                                                        <td>Interesanta, radoša un dinamiska darba vide</td>
+                                                        <td>Elastīgs darba grafiks</td>
+                                                </tr>
+                                        </table>
+                                </div>
+                        </div>
+                </div>-->
+
+                <div class="col-md-12">
+                        <form name="careerForm" id="vacansy-form" ng-submit="send()" novalidate ng-init="setFormScope( this )">
+                                <div class="col-md-6 form-group contact-form-input">
+                                        <div class="cs-select cs-skin-elastic">
+
+                                                <div class="cs-options">
+                                                        <ul>
+                                                                <li data-option data-value="marketing_manager" class="cs-selected"><span>Marketing manager</span></li>
+                                                                <li data-option data-value="game_marketing_manager"><span>Computer game marketing manager</span></li>
+                                                                <li data-option data-value="net"><span>.NET developer</span></li>
+                                                                <li data-option data-value="sale"><span>Sales manager</span></li>
+                                                        </ul>
+                                                </div>
+
+                                                <select class="form-control cs-select cs-skin-elastic"
+                                                        required
+                                                        ng-model="vacancy.position" name="position">
+                                                        <option value="" disabled selected>Choose your position</option>
+                                                        <option value="marketing_manager">Marketing manager</option>
+                                                        <option value="game_marketing_manager">Computer game marketing manager</option>
+                                                        <option value="net">.NET developer</option>
+                                                        <option value="sale">Sales manager</option>
+                                                </select>
+                                        </div>
+                                </div>
+                                <div class="col-md-6 form-group contact-form-input">
+                                        <input class="form-control"
+                                               name="email"
+                                               ng-model="vacancy.email"
+                                               type="email"
+                                               required
+                                               placeholder="Email address">
+                                </div>
+
+                                <div class="col-md-12 form-group contact-form-input">
+                                        <textarea rows="10"
+                                                  class="form-control"
+                                                  name="message"
+                                                  required
+                                                  ng-model="vacancy.message"
+                                                  placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                <button class="form-control send" type="submit" value="">
+                                        <div class="more-txt">Apply for position</div>
+                                        <div class="more-btn circle"></div>
+                                        <div class="more-btn-pressed circle"></div>
+                                        <div class="more-btn-hover circle"></div>
+                                </button>
+                                </div>
+                        </form>
+                </div>
+        </div>
+
+</div>
+
+
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+    <div class="row soc-icons">
+        <a target="_blank" href="https://www.facebook.com/SIA-MS-IDI-567335036807901/">
+            <img src="/images/social/FB.png">
+        </a>
+        <!--<a target="_blank" href="">
+            <img src="http://ms-idi.eu/wp-content/themes/serio/images/social/round/Twitter.png">
+        </a>
+        <a target="_blank" href="">
+            <img src="http://ms-idi.eu/wp-content/themes/serio/images/social/round/Google plus.png">
+        </a>-->
+        <a target="_blank" href="https://www.linkedin.com/company-beta/2840528/">
+            <img src="/images/social/linkedin.png">
+        </a>
+        <a target="_blank" href="https://www.youtube.com/user/msidiltd">
+            <img src="/images/social/youtube.png">
+        </a>
+    </div>
+
+    <!--<div class="col-lg-12 center liaa-link">
+        <a href="/liaa">
+            Cooperation with LIAA
+        </a>
+    </div>-->
+
+    <div class="footer-info">
+        <div >info@ms-idi.eu, (+371) 278 257 77</div>
+        <div >Atbrivosanas aleja 98, Rezekne, Latvia</div>
+        <div >SIA MS-IDI © 2010-2018</div>
+    </div>
+
+</div>
+
+
+    <script src="/js/vendor.js"></script>
+
+    <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyC65qTskUjsL4_7f9gWsNfkGbUJ5p5bXv0'></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="/js/app.js"></script>
+
+
+    <!--<script type="text/javascript">
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+    </script>-->
+</body>
+</html>
