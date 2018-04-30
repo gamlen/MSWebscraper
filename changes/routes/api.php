@@ -15,7 +15,10 @@ use Illuminate\Http\Request;
 
 Route::get('/changes', [
     'uses' => 'ChangeController@getContent'
+]);
 
+Route::get('/update', [
+    'uses' => 'ChangeController@updateURL'
 ]);
 
 Route::post('/change', [

@@ -24,8 +24,8 @@ class ValidURL implements Rule
      * @return bool
      */
     public function passes($attribute, $value)
-    {
-        if(!empty($value) && strpos("^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$", $value)) { 
+    {   
+        if(!empty($value) && (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$value))) {
             return true;
         }
         return false;  

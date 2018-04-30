@@ -12,36 +12,53 @@ use App\Rules\ValidURL;
 
 class ChangeController extends Controller
 {   
-  /*public function updatePage(Request $request) {
-        $url = 'http://ms-idi.eu/';
-        $file = file($url);
+  public function updateURL(Request $request) {
+        $url = Change::where('URL')
+                     ->get();
+        if (!preg_match('http://www.', $url)) {
+          $updatedURL = 'http://www.' . $url;
+        }
+
+        if(!empty($updatedURL)) {
+           $file = file($updatedURL);
+        } else {
+          $file = $url;
+        }
         //dd($storagePath);
     
         //SAVINGS
         //Storage::disk('local')->put($storagePath, $file); //Вставляем контент
         $newContent = Storage::disk('local')->put('htmltestingcode.txt', $file);
         $newText = Storage::disk('local')->get('htmltestingcode.txt'); //Берем контент
-        $oldText = Change::where('name' == $url)
-                          ->where('docs')
+        $oldText = Change::where('URL' == $url)
+                          ->where('oldDocs')
                           ->get();//Берем с БД
 
     
         if($oldText != $newText) 
         {  //Сравниваем контент
           $change = Change::find($id);
-          $change->docs = $request->update(['docs' => $url]); 
-          $change->email = $request->input('email', 'Testing');
+          $change->newDocs = $request->update(['newDocs' => $updatedURL]); 
           $change->save();
         }
 
-    }*/
+    }
 
     public function addContent(Request $request){
+
+    //Перед записью добавить http
+        /*$fullURL = 'http://www.';
+        $pos = strpos('URL', $fullURL);
+        if ($pos === false) {
+        'URL' = $fullURL . 'URL';
+        }*/
+
       $request->validate([
         'nosaukums' => ['required', new ValidForm],
         'URL' => ['required', new ValidURL]
         ]);
-
+      
+        
       $change = new Change();
       $change->nosaukums = $request->input('nosaukums');
       $change->URL = $request->input('URL');
